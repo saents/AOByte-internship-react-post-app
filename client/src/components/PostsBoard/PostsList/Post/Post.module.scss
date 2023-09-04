@@ -1,0 +1,112 @@
+.post_card {
+  width: 80%;
+  font-size: 30px;
+  box-shadow: var(--container-shadow);
+
+  .post_title_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .post_title {
+      font-size: 2.3rem;
+      text-align: center;
+      margin: 15px;
+    }
+    .delete_button {
+      position: absolute;
+      right: 80px;
+    }
+    .edit_button {
+      position: absolute;
+      right: 20px;
+    }
+  }
+
+  .post_body {
+    font-size: .8em;
+    text-align: center;
+  }
+
+  .post_comment {
+    .avatar_letter {
+      font-size: 15px;
+      background-color: var(--primary-blue);
+    }
+
+    .comment_author_section {
+      display: flex;
+
+      .comment_author_name_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .comment_user_email {
+          font-size: 1.2em;
+          margin-left: 10px;
+        }
+
+        .comment_author {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: red;
+          font-size: 12px;
+          width: 100%;
+          height: 100%;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .post_information {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+
+    .post_author_section,
+    .post_rating_section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-grow: 1;
+      width: 50%;
+
+      .post_author_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      .post_rating_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .post_rating_paragraph {
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+  }
+
+  .avatar_letter {
+    font-size: .8em;
+    background-color: var(--primary-blue);
+  }
+
+  .author_name {
+    font-size: .8em;
+    margin-left: 10px;
+  }
+}
+
+

@@ -1,0 +1,27 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-blue);
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 10px;
+  box-shadow: var(--container-shadow);
+
+  .logo {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo_link {
+      height: 100%;
+
+      .logo_img {
+        height: 100%;
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,16 @@
+.user_control_section {
+  max-width: 100%;
+  width: 100%;
+
+  .user_control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .menu_divider {
+    margin: 0;
+    padding: 0;
+  }
+}

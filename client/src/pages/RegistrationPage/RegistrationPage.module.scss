@@ -1,0 +1,23 @@
+.registration_container {
+  margin: 50px;
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .registration_table {
+    width: 360px;
+    height: 400px;
+    box-shadow: var(--container-shadow);
+    border-radius: 30px;
+
+    .registration_table_col {
+      width: 85%;
+    }
+
+    .registration_title {
+      text-align: center;
+    }
+  }
+}

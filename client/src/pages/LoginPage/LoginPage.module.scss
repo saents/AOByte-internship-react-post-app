@@ -1,0 +1,23 @@
+.login_container {
+  flex-grow: 1;
+  margin: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login_table {
+    width: 360px;
+    height: 400px;
+    box-shadow: var(--container-shadow);
+    border-radius: 30px;
+
+    .login_table_col {
+      width: 85%;
+    }
+
+    .login_title {
+      text-align: center;
+    }
+  }
+}

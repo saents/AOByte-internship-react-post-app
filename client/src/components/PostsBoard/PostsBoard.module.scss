@@ -1,0 +1,22 @@
+.posts_board {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+
+  .posts_board_actions {
+    width: 80%;
+    max-width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0 10px;
+  }
+
+  .posts_board_posts_list {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.search_comp {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+
+  .search_method {
+    width: 150px;
+  }
+
+  .search_component {
+    width: 250px;
+  }
+}

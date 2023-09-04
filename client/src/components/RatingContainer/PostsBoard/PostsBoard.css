@@ -1,0 +1,29 @@
+.post_board {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 5px 10px;
+    padding: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.post_column {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.actions_column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.actions_column > .post_board_btn {
+    width: 100%;
+    font-size: 1em;
+}
+

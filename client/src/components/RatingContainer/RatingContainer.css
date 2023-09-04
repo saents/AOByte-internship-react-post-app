@@ -1,0 +1,21 @@
+.rating_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating_board {
+    width: 100%;
+    margin: 10px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 764px) {
+    .rating_board {
+        flex-wrap: wrap;
+    }
+}
+
