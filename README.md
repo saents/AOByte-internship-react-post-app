@@ -93,11 +93,3 @@ To run the server of the application, follow these steps:
 ## Usage
 
 Once both the frontend and server are running, you can access the web application by opening a web browser and navigating to `http://localhost:3000`. From there, you can register an account, create posts, leave comments, and enjoy all the features of the Posts Project Web Application. You can use test account. **Login - jiyawof499@docwl.com, Password - 123**.
-
-## Contributing
-
-Contributions to this project are welcome! If you'd like to contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
